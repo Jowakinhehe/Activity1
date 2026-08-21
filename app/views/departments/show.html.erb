@@ -1,7 +1,7 @@
 <p style="color: green"><%= notice %></p>
 
 <%= render @department %>
-<%= if @department.students.any? %>
+<% if @department.students.any? %>
   <h3>List of Students:</h3>
   <table>
     <thead>
