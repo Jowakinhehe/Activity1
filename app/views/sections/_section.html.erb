@@ -1,6 +1,6 @@
 <div id="<%= dom_id section %>">
   <div>
-    <strong>Name:</strong>
+    <strong>Section:</strong>
     <%= section.name %>
   </div>
 
@@ -17,6 +17,11 @@
   <div>
     <strong>Subject:</strong>
     <%= section.subject.name %>
+  </div>
+
+  <div>
+    <strong>Teacher:</strong>
+    <%= section.subject.teacher.name %> 
   </div>
 
 </div>

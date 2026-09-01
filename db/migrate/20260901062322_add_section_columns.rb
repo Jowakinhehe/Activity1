@@ -6,3 +6,4 @@ class AddSectionColumns < ActiveRecord::Migration[7.1]
     add_reference :sections, :subject, null: false, foreign_key: true
   end
 end
+
